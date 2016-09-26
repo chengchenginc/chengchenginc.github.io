@@ -1,0 +1,35 @@
+# Site settings
+title: 狮子博客
+header-img: assets/images/home-bg.jpg
+email: chengchenginc@gmail.com
+copyright_name: chengchenginc@gmail.com
+description: "personal blog"
+baseurl: ""
+url: "http://nearco.cc"
+#twitter_username: chengcheng
+github_username:  chengchenginc
+#facebook_username:  chengcheng
+email_username:  chengchenginc@gmail.com
+
+timezone:    Asia/Shanghai
+encoding:    utf-8
+
+future:      true
+show_drafts: nil
+limit_posts: 0
+highlighter: pygments
+
+permalink:     pretty
+paginate_path: 'page:num'
+paginate:      5
+relative_permalinks: false
+exclude: ["CNAME","readme.md"]
+
+
+markdown:      kramdown
+markdown_ext:  markdown,mkd,mkdn,md
+textile_ext:   textile
+
+excerpt_separator: "\n\n"
+
+gems: [jekyll-paginate, jekyll-feed,jekyll-gist]
