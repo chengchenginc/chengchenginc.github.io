@@ -33,3 +33,7 @@ textile_ext:   textile
 excerpt_separator: "\n\n"
 
 gems: [jekyll-paginate, jekyll-feed,jekyll-gist]
+
+comment:
+   duoshuo:
+     short_name: blog2cc
