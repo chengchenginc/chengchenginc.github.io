@@ -1,5 +1,14 @@
 <script type="text/javascript">
-var duoshuoQuery = {short_name:"{{ site.comment.duoshuo.short_name }}"};
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "//hm.baidu.com/hm.js?360f228dfb7dcbdcc5ca9b31ab558557";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+
+
+	var duoshuoQuery = {short_name:"{{ site.comment.duoshuo.short_name }}"};
 	(function() {
 		var ds = document.createElement('script');
 		ds.type = 'text/javascript';ds.async = true;
@@ -8,4 +17,4 @@ var duoshuoQuery = {short_name:"{{ site.comment.duoshuo.short_name }}"};
 		(document.getElementsByTagName('head')[0]
 		 || document.getElementsByTagName('body')[0]).appendChild(ds);
 	})();
-	</script>
+</script>
